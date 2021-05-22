@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2020寒假总结</title>
+    <url>/2020/02/15/2020-2-15-Winter-Summary/</url>
+    <content><![CDATA[<h3 id="✏️寒假总结"><a href="#✏️寒假总结" class="headerlink" title="✏️寒假总结"></a>✏️寒假总结</h3><span id="more"></span> 
+
+<h4 id="1-编程学习"><a href="#1-编程学习" class="headerlink" title="1.编程学习"></a>1.编程学习</h4><ul>
+<li><p>▶️翁恺老师的OOP（67/67）</p>
+</li>
+<li><p>▶️浙大数据结构（64/173）</p>
+<blockquote>
+<p>数据结构是看到图了，没有急着往后看，在LC上先刷一定数量二叉树题接着学习.</p>
+</blockquote>
+</li>
+<li><p>📔《Java核心技术卷Ⅰ》（709/709）</p>
+<blockquote>
+<p>这是Java入门书，里面很多知识点没有实操过，远没有掌握，Java学习遇到困难会在着重翻开几章重新看</p>
+</blockquote>
+</li>
+<li><p>📝LeetCode每日一题</p>
+<blockquote>
+<p>2月3号开始坚持每天刷一道算法题的，在每周日就重新把一周做过的题重新写or复习一遍，很慢！</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h4 id="2-寒假读书"><a href="#2-寒假读书" class="headerlink" title="2.寒假读书"></a>2.寒假读书</h4><ul>
+<li>工具书：《Java核心技术卷Ⅰ》</li>
+<li>《三体》三部</li>
+<li>《飘》</li>
+<li>《算法图解》</li>
+</ul>
+<hr>
+<h4 id="3-学习之外"><a href="#3-学习之外" class="headerlink" title="3.学习之外"></a>3.学习之外</h4><ol>
+<li>假期每天一定练一小时字（2461min）</li>
+<li>过年之前的三周还在健身：33KM+324min的撸铁</li>
+<li>刷了《西部世界》两季+《爱情公寓5》</li>
+<li>电影《当幸福来敲门》、《模仿游戏》、漫威整个电影宇宙</li>
+</ol>
+<blockquote>
+<p><strong>漫威电影宇宙第一阶段：</strong></p>
+<p>《钢铁侠》（2008）</p>
+<p>《无敌浩克》（2008）</p>
+<p>《钢铁侠2》（2010）</p>
+<p>《雷神》（2011）</p>
+<p>《美国队长》（2011）</p>
+<p>《复仇者联盟》（2012）。</p>
+<p><strong>第二阶段：</strong></p>
+<p>《钢铁侠3》（2013）</p>
+<p>《雷神2：黑暗世界》（2013）</p>
+<p>《美国队长2：冬日战士》（2014）</p>
+<p>《银河护卫队》（2014）</p>
+<p>《复仇者联盟2：奥创纪元》（2015）</p>
+<p>《蚁人》（2015年7月）</p>
+<p><strong>第三阶段：</strong></p>
+<p>《美国队长3：内战》（2016年）、</p>
+<p>《奇异博士》（2016年11月）、</p>
+<p>《银河护卫队2》（2017年5月）、</p>
+<p>《蜘蛛侠：英雄归来》</p>
+<p>《雷神3：诸神黄昏》</p>
+<p>《黑豹》</p>
+<p>《复仇者联盟3：无限战争》</p>
+<p>《蚁人2：黄蜂女现身》</p>
+</blockquote>
+<hr>
+<h3 id="寒假每一周记录"><a href="#寒假每一周记录" class="headerlink" title="寒假每一周记录"></a>寒假每一周记录</h3><h4 id="我的第一周"><a href="#我的第一周" class="headerlink" title="我的第一周"></a><strong>我的第一周</strong></h4><h5 id="1-Java学习"><a href="#1-Java学习" class="headerlink" title="1.Java学习"></a><strong>1.Java学习</strong></h5><blockquote>
+<p>开始第二阶段的翁恺的OOP（18/67）<br>《Java核心技术卷1》（100/709）</p>
+</blockquote>
+<ul>
+<li>类是构造对象的模板或蓝图。<br>由类构造对象的过程称为创建类的实例。</li>
+<li>局部变量：在方法、构造方法或者语句块中定义的变量被称为局部变量。变量声明和初始化都是在方法中，方法结束后，变量就会自动销毁。<br>成员变量：成员变量是定义在类中，方法体之外的变量。这种变量在创建对象的时候实例化。成员变量可以被类中方法、构造方法和特定类的语句块访问。<br>类变量：类变量也声明在类中，方法体之外，但必须声明为static类型。</li>
+</ul>
+<hr>
+<h5 id="2-作业：java——复数加减乘除计算"><a href="#2-作业：java——复数加减乘除计算" class="headerlink" title="2.作业：java——复数加减乘除计算"></a><strong>2.作业：java——复数加减乘除计算</strong></h5><blockquote>
+<p>在Creation_Operation 封装</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Creation_Operation</span> </span>&#123;</span><br><span class="line">        <span class="keyword">double</span> real_number = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">double</span> imaginary_num = <span class="number">0</span>;</span><br><span class="line">        <span class="comment">//*获取数据</span></span><br><span class="line">    Creation_Operation()&#123;</span><br><span class="line">        Scanner in = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        real_number = in.nextDouble();</span><br><span class="line">        imaginary_num = in.nextDouble();</span><br><span class="line">        complex(real_number,imaginary_num);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    Creation_Operation(<span class="keyword">double</span> real_number,<span class="keyword">double</span> imaginary_num)&#123;</span><br><span class="line">        <span class="keyword">this</span>.imaginary_num = imaginary_num;</span><br><span class="line">        <span class="keyword">this</span>.real_number = real_number;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">complex</span><span class="params">(<span class="keyword">double</span> real_number,<span class="keyword">double</span> imaginary_num)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.real_number = real_number;</span><br><span class="line">        <span class="keyword">this</span>.imaginary_num = imaginary_num;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//*加法</span></span><br><span class="line">     <span class="function">Creation_Operation <span class="title">add</span><span class="params">(Creation_Operation a)</span> </span>&#123;</span><br><span class="line">         <span class="keyword">double</span> addone = real_number + a.real_number;</span><br><span class="line">         <span class="keyword">double</span> addtwo = imaginary_num + a.imaginary_num;</span><br><span class="line">         Creation_Operation result = <span class="keyword">new</span> Creation_Operation(addone,addtwo);</span><br><span class="line">         <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">        <span class="comment">//*减法</span></span><br><span class="line">    <span class="function">Creation_Operation  <span class="title">sub</span><span class="params">(Creation_Operation a)</span></span>&#123;</span><br><span class="line">        <span class="keyword">double</span> subone = real_number - a.real_number;</span><br><span class="line">        <span class="keyword">double</span> subtwo = imaginary_num - a.imaginary_num;</span><br><span class="line">        Creation_Operation result = <span class="keyword">new</span> Creation_Operation(subone,subtwo);</span><br><span class="line">        <span class="keyword">return</span>  result;</span><br><span class="line">    &#125;</span><br><span class="line">        <span class="comment">//*乘法</span></span><br><span class="line">    <span class="function">Creation_Operation  <span class="title">mul</span><span class="params">(Creation_Operation a)</span></span>&#123;</span><br><span class="line">        <span class="keyword">double</span> mulone = real_number * a.real_number - imaginary_num * a.imaginary_num;</span><br><span class="line">        <span class="keyword">double</span> multwo = real_number * a.imaginary_num + imaginary_num * a.real_number;</span><br><span class="line">        Creation_Operation result =<span class="keyword">new</span> Creation_Operation(mulone,multwo);</span><br><span class="line">        <span class="keyword">return</span>  result;</span><br><span class="line">    &#125;</span><br><span class="line">        <span class="comment">//*除法</span></span><br><span class="line">    <span class="function">Creation_Operation <span class="title">div</span><span class="params">(Creation_Operation a)</span></span>&#123;</span><br><span class="line">        <span class="keyword">double</span> divone = (real_number * a.real_number+ imaginary_num * a.imaginary_num ) / (a.real_number * a.real_number + a.imaginary_num * a.imaginary_num);</span><br><span class="line">        <span class="keyword">double</span> divtwo = (imaginary_num * a.real_number - real_number *a.imaginary_num) / (a.real_number * a.real_number + a.imaginary_num * a.imaginary_num);</span><br><span class="line">        Creation_Operation result =<span class="keyword">new</span>  Creation_Operation(divone,divtwo);</span><br><span class="line">        <span class="keyword">return</span>  result;</span><br><span class="line">    &#125;</span><br><span class="line">        <span class="comment">//*打印</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">print</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(imaginary_num&gt;<span class="number">0</span>)</span><br><span class="line">            System.out.println(real_number + <span class="string">&quot;+&quot;</span>+imaginary_num+<span class="string">&quot;i&quot;</span>);</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(imaginary_num == <span class="number">0</span>)</span><br><span class="line">            System.out.println(real_number + <span class="string">&quot; &quot;</span>);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            System.out.println(real_number + <span class="string">&quot; &quot;</span>+imaginary_num+<span class="string">&quot;i&quot;</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Main中数据测试</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;</span><br><span class="line">        Creation_Operation Testone = <span class="keyword">new</span> Creation_Operation();</span><br><span class="line">        Creation_Operation Testtwo = <span class="keyword">new</span> Creation_Operation();</span><br><span class="line"></span><br><span class="line">        Creation_Operation result_add = Testone.add(Testtwo);</span><br><span class="line">        Creation_Operation result_sub = Testone.sub(Testtwo);</span><br><span class="line">        Creation_Operation result_mul = Testone.mul(Testtwo);</span><br><span class="line">        Creation_Operation result_div = Testone.div(Testtwo);</span><br><span class="line"></span><br><span class="line">        result_add.print();</span><br><span class="line">        result_sub.print();</span><br><span class="line">        result_mul.print();</span><br><span class="line">        result_div.print();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://user-images.githubusercontent.com/57027969/72218155-cc65f800-3572-11ea-95df-dd9537e35726.png"><img src="https://user-images.githubusercontent.com/57027969/72218155-cc65f800-3572-11ea-95df-dd9537e35726.png" alt="批注 2020-01-12 115958"></a></p>
+<hr>
+<h5 id="3-学习外的生活"><a href="#3-学习外的生活" class="headerlink" title="3.学习外的生活"></a><strong>3.学习外的生活</strong></h5><ul>
+<li>开始阅读《三体》（未开始）.</li>
+<li>早起练字（Everyday).</li>
+<li>7KM跑步+哑铃弯举（今天周日）</li>
+</ul>
+<hr>
+<p><a href="https://camo.githubusercontent.com/503dd74a3b7e341aa1d38bc99a2a6813430197f5/68747470733a2f2f706963312e7a68696d672e636f6d2f38302f76322d64393230376138306437326230306161656239646533396362343362323966365f68642e6a7067"><img src="https://camo.githubusercontent.com/503dd74a3b7e341aa1d38bc99a2a6813430197f5/68747470733a2f2f706963312e7a68696d672e636f6d2f38302f76322d64393230376138306437326230306161656239646533396362343362323966365f68642e6a7067" alt="我是分界线啊"></a></p>
+<hr>
+<h4 id="👴🏻的第二周"><a href="#👴🏻的第二周" class="headerlink" title="👴🏻的第二周"></a>👴🏻的第二周</h4><p><strong>1.学习进度</strong></p>
+<p><a href="https://user-images.githubusercontent.com/57027969/72682336-e40b2680-3b06-11ea-9b9b-ae6187edb263.png"><img src="https://user-images.githubusercontent.com/57027969/72682336-e40b2680-3b06-11ea-9b9b-ae6187edb263.png" alt="批注 2020-01-19 213350"></a></p>
+<p>总结：</p>
+<blockquote>
+<ul>
+<li>听力6篇</li>
+<li>练字共424min==7h4min</li>
+<li>《核心技术1》（178/709）</li>
+<li>OOP(31/67)</li>
+<li>整理了笔记到Github</li>
+<li>大物学习到第三章</li>
+</ul>
+</blockquote>
+<hr>
+<h5 id="2-学习外的生活"><a href="#2-学习外的生活" class="headerlink" title="2.学习外的生活"></a><strong>2.学习外的生活</strong></h5><blockquote>
+<ul>
+<li>一周跑步21KM</li>
+<li>撸铁265min==4h25min</li>
+<li>看完《三体1》</li>
+</ul>
+</blockquote>
+<hr>
+<h5 id="3-一些🖊话"><a href="#3-一些🖊话" class="headerlink" title="3.一些🖊话"></a><strong>3.一些🖊话</strong></h5><blockquote>
+<p>每天都有自己的学习计划，但不可能每天完美执行你的安排，总有一些AC事给耽误了，周六聚会周日出去玩，在需要改变你的预期计划时，调整心态，顺延你的task。</p>
+</blockquote>
+<hr>
+<h4 id="My-third-week"><a href="#My-third-week" class="headerlink" title="My third week"></a><strong>My third week</strong></h4><h5 id="1-记录（这有一张图片，可以查看）"><a href="#1-记录（这有一张图片，可以查看）" class="headerlink" title="1.记录（这有一张图片，可以查看）"></a>1.记录（<em>这有一张图片，可以查看</em>）</h5><p><a href="https://user-images.githubusercontent.com/57027969/73135381-55555700-407c-11ea-8156-cfedb5ab7e9d.png"><img src="https://user-images.githubusercontent.com/57027969/73135381-55555700-407c-11ea-8156-cfedb5ab7e9d.png" alt="批注 2020-01-26 185501"></a></p>
+<p>·总结</p>
+<blockquote>
+<ul>
+<li>听力8篇</li>
+<li>跑步5km+撸铁59min ——————————（健身房关了，开了我也不敢去dog）</li>
+<li>OOP(52/67)</li>
+<li>数据结构（21/143）</li>
+<li>《三体2》（1/3）</li>
+<li>练字450min=7h30min</li>
+<li>大物开第四章</li>
+</ul>
+</blockquote>
+<hr>
+<h5 id="2-Java学习"><a href="#2-Java学习" class="headerlink" title="2.Java学习"></a><strong>2.Java学习</strong></h5><p>《核心技术》看到了接口，还没有看懂<br>Java题在写翁恺MOOC上的作业</p>
+<blockquote>
+<p>题目内容：</p>
+<p>设计一个表示分数的类Fraction。这个类用两个int类型的变量分别表示分子和分母。</p>
+<p>这个类的构造函数是：</p>
+<p>Fraction(int a, int b)</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">构造一个<span class="selector-tag">a</span>/<span class="selector-tag">b</span>的分数。</span><br></pre></td></tr></table></figure>
+
+<p>这个类要提供以下的功能：</p>
+<p>double toDouble();</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">将分数转换为<span class="built_in">double</span></span><br></pre></td></tr></table></figure>
+
+<p>Fraction plus(Fraction r);</p>
+<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">将自己的分数和r的分数相加，产生一个新的<span class="built_in">Fraction</span>的对象。注意小学四年级学过两个分数如何相加的哈。</span><br></pre></td></tr></table></figure>
+
+<p>Fraction multiply(Fraction r);</p>
+<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">将自己的分数和r的分数相乘，产生一个新的<span class="built_in">Fraction</span>的对象。</span><br></pre></td></tr></table></figure>
+
+<p>void print();</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">将自己以“分子<span class="regexp">/分母”的形式输出到标准输出，并带有回车换行。如果分数是1/</span><span class="number">1</span>，应该输出<span class="number">1</span>。当分子大于分母时，不需要提出整数部分，即<span class="number">31</span>/<span class="number">30</span>是一个正确的输出。</span><br></pre></td></tr></table></figure>
+
+<p>注意，在创建和做完运算后应该化简分数为最简形式。如2/4应该被化简为1/2。<br>import java.util.Scanner;</p>
+</blockquote>
+<p><strong>Main主函数</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        Scanner in = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line"></span><br><span class="line">        Fraction a = <span class="keyword">new</span> Fraction(in.nextInt(), in.nextInt());</span><br><span class="line"></span><br><span class="line">        Fraction b = <span class="keyword">new</span> Fraction(in.nextInt(),in.nextInt());</span><br><span class="line"></span><br><span class="line">        a.print();</span><br><span class="line"></span><br><span class="line">        b.print();</span><br><span class="line"></span><br><span class="line">        a.plus(b).print();</span><br><span class="line"></span><br><span class="line">        a.multiply(b).plus(<span class="keyword">new</span> Fraction(<span class="number">5</span>,<span class="number">6</span>)).print();</span><br><span class="line"></span><br><span class="line">        a.print();</span><br><span class="line"></span><br><span class="line">        b.print();</span><br><span class="line"></span><br><span class="line">        in.close();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>数据操作</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Fraction</span> </span>&#123;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">int</span> a = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">private</span> <span class="keyword">int</span> b = <span class="number">1</span>;</span><br><span class="line">        <span class="comment">//*构造函数</span></span><br><span class="line">        Fraction(<span class="keyword">int</span> a,<span class="keyword">int</span> b)&#123;</span><br><span class="line">            <span class="keyword">this</span>.a = a;</span><br><span class="line">            <span class="keyword">this</span>.b = b;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">double</span> <span class="title">toDouble</span><span class="params">()</span></span>&#123;</span><br><span class="line">            <span class="keyword">return</span> a/b;</span><br><span class="line">        &#125;</span><br><span class="line">    </span><br><span class="line">        <span class="comment">//*分数加法</span></span><br><span class="line"></span><br><span class="line">        <span class="function">Fraction <span class="title">plus</span><span class="params">(Fraction r)</span></span>&#123;</span><br><span class="line">            Fraction new1 =<span class="keyword">new</span> Fraction(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line">            new1.a = (<span class="keyword">this</span>.a * r.b) +(<span class="keyword">this</span>.b * r.a);</span><br><span class="line">            new1.b = <span class="keyword">this</span>.b * r.b;</span><br><span class="line">            <span class="keyword">return</span>  new1;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//* 乘法</span></span><br><span class="line"></span><br><span class="line">        <span class="function">Fraction <span class="title">multiply</span><span class="params">(Fraction r)</span></span>&#123;</span><br><span class="line">            Fraction new1 =<span class="keyword">new</span> Fraction(<span class="number">0</span>,<span class="number">1</span>);</span><br><span class="line">            new1.a = <span class="keyword">this</span>.a * r.a;</span><br><span class="line">            new1.b = <span class="keyword">this</span>.b * r.b;</span><br><span class="line">            <span class="keyword">return</span>  new1;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//*最大公约数，约分</span></span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">int</span> <span class="title">gcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span>(a%b==<span class="number">0</span>)</span><br><span class="line">                <span class="keyword">return</span>  b;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                <span class="keyword">return</span> gcd(b,a%b);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">//*打印</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">()</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span>(a==b)</span><br><span class="line">                System.out.println(<span class="string">&quot;1&quot;</span>);</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="keyword">int</span> gys=gcd(a,b);</span><br><span class="line">                a = a / gys;</span><br><span class="line">                b = b / gys;</span><br><span class="line">                System.out.println(a+<span class="string">&quot;/&quot;</span>+b);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="3-方法论"><a href="#3-方法论" class="headerlink" title="3.方法论"></a>3.方法论<a href="https://user-images.githubusercontent.com/57027969/73135324-a57fe980-407b-11ea-911c-444768402490.png"><img src="https://user-images.githubusercontent.com/57027969/73135324-a57fe980-407b-11ea-911c-444768402490.png" alt="批注 2020-01-26 200506"></a></h5><hr>
+<h4 id="我的第四周"><a href="#我的第四周" class="headerlink" title="我的第四周"></a>我的第四周</h4><table>
+<thead>
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Weekend</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>练字50min</td>
+<td>练字49min</td>
+<td>练字61min</td>
+<td>练字65min</td>
+<td>练字67min</td>
+<td>练字106min</td>
+</tr>
+<tr>
+<td>《三体2》读到“自然选择号”逃离</td>
+<td>开启《三体3》</td>
+<td>Java书跳过异常开始第八章</td>
+<td>大物4-2</td>
+<td></td>
+<td>数据结构（33/143）</td>
+</tr>
+<tr>
+<td>Java书（240/709）</td>
+<td>OOP（67/67）【完结】</td>
+<td>整理Github笔记</td>
+<td>复习链表操作</td>
+<td></td>
+<td>《三体3》阶梯计划</td>
+</tr>
+<tr>
+<td>OOP（57/67）</td>
+<td></td>
+<td></td>
+<td>数据结构跳过了栈开树</td>
+<td></td>
+<td>听力2篇高淇java</td>
+</tr>
+</tbody></table>
+<h5 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h5><ol>
+<li>练字398min = 6h38min.</li>
+<li>翁恺OOP学习完.</li>
+<li>Java书（309/709）</li>
+<li>数据结构（33/143）<br><a href="https://github.com/ConnorTomato/Notes/blob/master/Java_Notes/%E3%80%8AJava%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF-%E5%8D%B71%E3%80%8B.md">5.Github笔记整理</a></li>
+<li>保持每日一题</li>
+</ol>
+<hr>
+<h5 id="数据结构实操："><a href="#数据结构实操：" class="headerlink" title="数据结构实操："></a><strong>数据结构实操：</strong></h5><ul>
+<li>[<a href="https://github.com/ConnorTomato/Data-Structure/blob/master/%E9%93%BE%E8%A1%A8/%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A84%E4%B8%AA%E6%93%8D%E4%BD%9C.c">单向链表4个操作]</a></li>
+<li>[<a href="https://github.com/ConnorTomato/Data-Structure/blob/master/%E9%93%BE%E8%A1%A8/LeetCode%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.c">合并两个有序链表]</a></li>
+</ul>
+<h5 id="做题："><a href="#做题：" class="headerlink" title="做题："></a><strong>做题</strong>：</h5><ul>
+<li>每天会在CF或LeetCode做一道.</li>
+</ul>
+<hr>
+<h4 id="第五周"><a href="#第五周" class="headerlink" title="第五周"></a>第五周</h4><table>
+<thead>
+<tr>
+<th>周一</th>
+<th>周二</th>
+<th>周三</th>
+<th>周四</th>
+<th>周五</th>
+<th>周末</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>练字：61min</td>
+<td>练字：57min</td>
+<td>练字：55min</td>
+<td>练字：57min</td>
+<td>练字58min</td>
+<td>练字:115min</td>
+</tr>
+<tr>
+<td>《三体3》执剑人交接</td>
+<td>《三体3》进入四维</td>
+<td>《三体3》云天明讲故事</td>
+<td>《三体》读完</td>
+<td>数据结构（50/143）</td>
+<td>数据结构（54/143）</td>
+</tr>
+<tr>
+<td>构（40/143）</td>
+<td>数据结构（43/143）</td>
+<td>数据结构（47/143）</td>
+<td>Java书（353/709）</td>
+<td>Java链表</td>
+<td>Java书（405/709）</td>
+</tr>
+</tbody></table>
+<ul>
+<li> 每日一道LeetCode链表题.</li>
+<li> 学会手写实现二叉树基本操作</li>
+</ul>
+<hr>
+<h5 id="总结：-1"><a href="#总结：-1" class="headerlink" title="总结："></a>总结：</h5><ol>
+<li>练字：406min = 6h46min。</li>
+<li>《三体》全集阅读完毕。</li>
+<li>数据结构（54/143）</li>
+<li>Java书跳过事件开启第13章。</li>
+<li>每天一道链表。</li>
+</ol>
+<hr>
+<h4 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h4><table>
+<thead>
+<tr>
+<th>周一</th>
+<th>周二</th>
+<th>周三</th>
+<th>周四</th>
+<th>周五</th>
+<th>周末</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>练字：49min</td>
+<td>练字：57min</td>
+<td>练字：54min</td>
+<td>练字：60min</td>
+<td>练字：71min</td>
+<td>练字:114min</td>
+</tr>
+<tr>
+<td>复习Java预习高数</td>
+<td>《飘》（9/62）</td>
+<td>数据结构（64/143）</td>
+<td>预习高数</td>
+<td>预习高数</td>
+<td>预习高数X2</td>
+</tr>
+<tr>
+<td>Java书（581/709）</td>
+<td>预习高数</td>
+<td>java书（625/709）</td>
+<td>Java书（653/709）</td>
+<td>Java书看完</td>
+<td>《飘》读毕</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>《飘》（31/62）</td>
+<td>《飘》（37/62）</td>
+<td>《飘》（52/62）</td>
+<td>写作业</td>
+</tr>
+</tbody></table>
+<ul>
+<li> 每日二道LeetCode 链表＋树 题.</li>
+<li> 每天阅读一小时</li>
+</ul>
+<hr>
+<h5 id="总结：-2"><a href="#总结：-2" class="headerlink" title="总结："></a>总结：</h5><ol>
+<li><p>练字：455min = 6h35min。</p>
+</li>
+<li><p>《Java核心技术卷一》、《飘》读完。</p>
+<blockquote>
+<p>Java书看完只是知道一些概念，后期部分Java集合、并发’接口、lambda表达式都没有掌握</p>
+</blockquote>
+</li>
+<li><p>数据结构（64/143）</p>
+<blockquote>
+<p>下一个知识点是图了，之前栈、树的只会基本操作，停一段时间刷题理解巩固</p>
+</blockquote>
+<hr>
+<h5 id="下周大体计划："><a href="#下周大体计划：" class="headerlink" title="下周大体计划："></a>下周大体计划：</h5><ul>
+<li>以后周日：回顾复习一周刷的题、重写一遍已学的数据结构</li>
+<li>开《算法图解》补一下基础</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Term Summary</category>
+      </categories>
+      <tags>
+        <tag>Term Summary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大一下+暑假总结</title>
+    <url>/2020/09/18/2020-9-18-%E5%A4%A7%E4%B8%80%E4%B8%8B-Summary/</url>
+    <content><![CDATA[<h1 id="✏️大一下➕暑假总结"><a href="#✏️大一下➕暑假总结" class="headerlink" title="✏️大一下➕暑假总结"></a>✏️大一下➕暑假总结</h1><blockquote>
+<p>半年过去了，回过头来总结，去做了很多事情，就把印象中记得一些写下来。</p>
+<p>辗辗转转，已经大二了，军训太累，后面太懒，今天想起来就把这个记录一口气完成</p>
+</blockquote>
+<span id="more"></span> 
+
+<h2 id="1、编程学习"><a href="#1、编程学习" class="headerlink" title="1、编程学习"></a>1、编程学习</h2><h3 id="1-1、Java"><a href="#1-1、Java" class="headerlink" title="1.1、Java"></a>1.1、Java</h3><ul>
+<li>一个星期补了<strong>反射与注解</strong>、<strong>多线程</strong>的知识。</li>
+<li>还需要再去补一下JUC、JVM这些知识。</li>
+</ul>
+<h3 id="1-2-、Spring"><a href="#1-2-、Spring" class="headerlink" title="1.2 、Spring"></a>1.2 、Spring</h3><blockquote>
+<p>这块学习都是以B站视频为主，注重做笔记，每一个阶段完成后，在做一些练手整合的项目的过程中去重新实操发现并解决问题</p>
+</blockquote>
+<ul>
+<li><p>寒假结束刚开始学工具Maven,然后接触<strong>MyBatis</strong></p>
+<blockquote>
+<p>MyBatis学完恰巧接触了一篇博客，就做了一个MySQL+Mybatis的宿舍管理后端项目。</p>
+</blockquote>
+</li>
+<li><p><strong>Spring</strong></p>
+</li>
+<li><p><strong>SpringMVC</strong></p>
+<blockquote>
+<p>根据CSDN一些适合自己的教程，练手一个Vue+SSM的项目</p>
+</blockquote>
+</li>
+<li><p><strong>SpringBoot</strong></p>
+<blockquote>
+<p>这块还剩许多，但已经可以开发后端一些系统了</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="1-3、前端"><a href="#1-3、前端" class="headerlink" title="1.3、前端"></a>1.3、前端</h3><blockquote>
+<p>接触一套完整的网站项目，必须要有前端于是就去粗略看了Vue</p>
+</blockquote>
+<ul>
+<li>Vue<ul>
+<li>只是简单粗略过了一遍，会基本的安装项目依赖环境，配合ElementUI解决前端部署</li>
+<li>练手项目Vue + SSM</li>
+</ul>
+</li>
+</ul>
+<h3 id="1-3-、面试"><a href="#1-3-、面试" class="headerlink" title="1.3 、面试"></a>1.3 、面试</h3><blockquote>
+<p>走java开发后台一类的学习路线，java知识覆盖太广了，一开始也是漫无目的地背面经，到后来混迹牛客知乎从别人面经提问中学习。想法是：大二上学完ssm+springboot、学习面经，接触学校实验室项目，最后做一份简历，大二寒假面试暑期实习生。大概率有变卦，算是当前学习方向的路线。</p>
+</blockquote>
+<h4 id="1-3-1、面经学习"><a href="#1-3-1、面经学习" class="headerlink" title="1.3.1、面经学习"></a>1.3.1、面经学习</h4><ol>
+<li><p>以JavaGuide、CSNotes为目录，结合牛客网一类别人校招面经去一个一个问题解决做笔记</p>
+<blockquote>
+<p>感慨就是：需要学的太多，很多技术我都没有接触过，一篇面经我自己能收获的并不多，主要矛盾是自己目前学的太少且不精，一方面想要广学，另一方又要花时间单技术深入</p>
+</blockquote>
+</li>
+<li><p>MySQL只会个CRUD，面经后面重点根本看不了，这个也要安排重新学一遍，补上后面索引、锁、优化等，要说得出来MySQL底层原理以及实现。</p>
+</li>
+<li><p>JUC、JVM、Spring这三大块的学习。</p>
+</li>
+<li><p>操作系统、计算机网络是必学的，但可能准备面试前没有时间去学了，先在此记录。</p>
+</li>
+</ol>
+<h3 id="1-4、LeetCode（已经300题）"><a href="#1-4、LeetCode（已经300题）" class="headerlink" title="1.4、LeetCode（已经300题）"></a>1.4、LeetCode（已经300题）</h3><ul>
+<li>常规签到，基本每日早中晚三题</li>
+<li>从寒假2月到如今</li>
+</ul>
+<blockquote>
+<p>暑假期间的刷题计划</p>
+</blockquote>
+<ul>
+<li>闫学灿的80题目前进度（30/80）</li>
+<li>《剑指offer》（27/51）</li>
+</ul>
+<h3 id="1-5、项目"><a href="#1-5、项目" class="headerlink" title="1.5、项目"></a>1.5、项目</h3><p>​         军训结束，老师就联系了我，也刚好参加了学长的外包项目，截至9.18日我负责的后台产品管理系统已经完成，自己的第一个项目，项目规范、JSON封装类、SpringBOOt使用，项目里面除开自己负责的板块，其它还有很多可以学习的地方。</p>
+<h2 id="2、生活"><a href="#2、生活" class="headerlink" title="2、生活"></a>2、生活</h2><h3 id="2-1、追剧"><a href="#2-1、追剧" class="headerlink" title="2.1、追剧"></a>2.1、追剧</h3><ul>
+<li><p>疫情那段时间，考古地看了《射雕英雄传》、《神雕侠侣》、《倚天屠龙记》</p>
+</li>
+<li><p>看完了《一人之下》漫画</p>
+</li>
+<li><p>第三次看《超神学院》，梳理一下故事线</p>
+</li>
+</ul>
+<h3 id="2-2、健身"><a href="#2-2、健身" class="headerlink" title="2.2、健身"></a>2.2、健身</h3><blockquote>
+<ul>
+<li><p>最爱的运动了，从5月正式开始健身，到如今的8月已经过去3个月！</p>
+</li>
+<li><p>收获：<strong>练什么不重要，关键是怎么练</strong></p>
+</li>
+<li><p>三天训练休一天，坚持训练，更要去学习改进训练姿势动作</p>
+</li>
+</ul>
+</blockquote>
+<p>记录一下截至8.12日训练量：三分化训练</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center"><strong>Day1:胸、肩三头</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>部位</strong></td>
+<td align="center"><strong>动作</strong></td>
+</tr>
+<tr>
+<td><strong>胸部</strong></td>
+<td align="center">卧推50kg、斜推45kg、哑铃上斜推胸25kg、(抛弃—坐姿推胸30k)</td>
+</tr>
+<tr>
+<td><strong>肩部</strong></td>
+<td align="center">杠铃肩上举(抛弃)、三连绳索挺举（后14中前7）、绳索面拉收尾3×15 重点：当成15组×3做 每一个动作保证高质量完成7.5</td>
+</tr>
+<tr>
+<td><strong>肱三头</strong></td>
+<td align="center">窄推30kg、绳索下压（or正手直臂下压）10kg、仰卧臂屈伸 EZ杆+5kg</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">Day2:背、二头、腹部</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>部位</strong></td>
+<td align="center">动作</td>
+</tr>
+<tr>
+<td align="center"><strong>背部</strong></td>
+<td align="center">直臂下压热身、硬拉70kg、杠铃划船30kg、高位下拉25kg、坐姿划船45kg、</td>
+</tr>
+<tr>
+<td align="center"><strong>二头</strong></td>
+<td align="center">杠铃弯举、21响礼炮哑铃弯举、牧师凳弯举</td>
+</tr>
+<tr>
+<td align="center"><strong>腹部</strong></td>
+<td align="center">腹肌撕裂者</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">Day3:腿、腰、腹</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>部位</strong></td>
+<td align="center"><strong>动作</strong></td>
+</tr>
+<tr>
+<td align="center">腿部</td>
+<td align="center">杠铃深蹲60kg、腿推90kg、大腿屈伸、股二屈伸</td>
+</tr>
+<tr>
+<td align="center">腰部</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">腹部</td>
+<td align="center">腹肌撕裂者</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Term Summary</category>
+      </categories>
+      <tags>
+        <tag>Term Summary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>健身笔记-肱三头肌篇</title>
+    <url>/2020/06/01/2020-6-1-%F0%9F%92%AA%E5%81%A5%E8%BA%AB%E7%AC%94%E8%AE%B0-%E8%82%B1%E4%B8%89%E5%A4%B4%E8%82%8C%E7%AF%87/</url>
+    <content><![CDATA[<h3 id="💪健身笔记-肱三头肌篇"><a href="#💪健身笔记-肱三头肌篇" class="headerlink" title="💪健身笔记-肱三头肌篇"></a>💪健身笔记-肱三头肌篇</h3><hr>
+<span id="more"></span> 
+
+
+
+<p>[TOC]</p>
+<p><img src="https://pic1.zhimg.com/80/f87387b4966bfdd03df3a48683b10e06_720w.jpg" alt="img"></p>
+<blockquote>
+<p>长头：颈后类动作，比如颈后高拉臂屈伸、颈后哑铃臂屈伸、仰卧杠铃臂屈伸<br>外侧头：开肘类动作，比如开肘的窄握卧推、曲臂下拉、颈前半推举<br>内侧头：夹肘类动作，比如夹肘的窄握卧推、曲臂下拉、俯立臂屈伸</p>
+</blockquote>
+<h4 id="长头训练"><a href="#长头训练" class="headerlink" title="长头训练"></a>长头训练</h4><h5 id="动作一：颈后臂屈伸"><a href="#动作一：颈后臂屈伸" class="headerlink" title="动作一：颈后臂屈伸"></a>动作一：<strong>颈后臂屈伸</strong></h5><p><img src="https://pic1.zhimg.com/50/v2-dfb0582bf7e7926233fcf5e4c338c50a_hd.webp" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>时刻关注肘关节，其压力很大的时候应停下来休息再练习，否则易受伤。</li>
+<li><strong>背打直，不要让肘部在一侧发生移动，锁死。小重量起，宁轻勿骗</strong></li>
+<li>头部的位置要稳定，在用力的时候颈部肌群很容易去借力，由于颈部承受压力有限，如果颈部过分发力会造成颈椎扭伤。</li>
+</ol>
+<h5 id="动作二：仰卧杠铃臂屈伸"><a href="#动作二：仰卧杠铃臂屈伸" class="headerlink" title="动作二：仰卧杠铃臂屈伸"></a>动作二：仰卧杠铃臂屈伸</h5><p>![img](/assets/images/photo/v2-4b94dff2da3f011a50df0bf53fa6ed78_hd.webp)</p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>大臂与地面垂直，锁死肘部，沉肩，感受三头稳定发力的感觉，</li>
+<li>下沉的时间应是上升时间的两倍，慢下！ 一定注意安全！这个动作有一定危险性，先从轻重量练起。</li>
+<li>这是单关节动作，只有肘关节运动，肩关节不能动，不要大重量，双肘加紧，控制节奏和幅度。</li>
+</ol>
+<h5 id="动作三：绳索下压"><a href="#动作三：绳索下压" class="headerlink" title="动作三：绳索下压"></a>动作三：绳索下压</h5><p><img src="https://pic1.zhimg.com/50/v2-3592ba8c5deae9968fd80511f821d763_hd.webp" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>身体直立，拳眼向上抓住绳索，双臂夹住身体，锁死肘部。</li>
+<li>快下慢上到底，一个分手动作。</li>
+<li>肘关节可以适度朝外打开，在动作结尾时充分手腕向下向外旋转完成顶峰收缩，停顿一秒后慢放。</li>
+</ol>
+<hr>
+<h4 id="外侧头训练"><a href="#外侧头训练" class="headerlink" title="外侧头训练"></a>外侧头训练</h4><h5 id="动作一：窄距双杠臂屈伸"><a href="#动作一：窄距双杠臂屈伸" class="headerlink" title="动作一：窄距双杠臂屈伸"></a>动作一：窄距双杠臂屈伸</h5><p><img src="https://pic4.zhimg.com/50/v2-819cfdb8d0133c86c7d5535c844a0365_hd.webp" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>肘关节向后，上臂夹住身体</li>
+<li>吸气下，呼气起。</li>
+</ol>
+<p>对<strong>三头和下胸部</strong>的塑造都非常有效，能够有效提高上身整体力量和耐力，</p>
+<h5 id="动作二：体臂后屈伸"><a href="#动作二：体臂后屈伸" class="headerlink" title="动作二：体臂后屈伸"></a>动作二：体臂后屈伸</h5><p><img src="https://pic2.zhimg.com/50/v2-a2c600c2f600a6cbd350046b51449773_hd.webp" alt="img"></p>
+<blockquote>
+<p><strong>动作要领：</strong></p>
+</blockquote>
+<ol>
+<li>双手扶住固定高点，双脚可以等高</li>
+<li>吸气曲臂向下，呼气发力撑起身体</li>
+<li>（负重）在大腿位置放一个25KG的杠铃片即可</li>
+</ol>
+<h5 id="动作三：The-diamond-press-up"><a href="#动作三：The-diamond-press-up" class="headerlink" title="动作三：The diamond press-up"></a>动作三：<strong>The diamond press-up</strong></h5><p><img src="https://pic1.zhimg.com/50/v2-1fe181f4d0d330076d9c80f80e58d2fa_hd.webp" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>双手位窄于肩宽</li>
+<li>吸气下，呼气起</li>
+<li>俯卧撑属于自重训练，不能平地做就抬高，扶着桌子做，降低难度，如果感觉手腕压力太大，最好使用俯卧撑价做。</li>
+</ol>
+<h5 id="动作四：颈前半推举"><a href="#动作四：颈前半推举" class="headerlink" title="动作四：颈前半推举"></a>动作四：颈前半推举</h5><p><img src="https://www.jianshen8.com/uploads/allimg/170619/4_170619114855_2.gif" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>坐姿推举时，选用80－85度靠背的长凳，后背要完全靠在靠背上。</li>
+<li>提杠铃至肩上，掌心向上；把杠铃贴脸向上推起至两臂伸直在头顶上方；然后，慢慢循原路放下至肩上。 </li>
+<li>动作开始后，只能手臂在动，身体的其他部位均要保持固定姿势。上推时，上体不要后仰、憋气，最好是在腰围上束上举重护腰皮带来练。</li>
+<li>在动作过程中，手腕用力并保持固定，手腕的前后摆动会增加受伤的危险性。</li>
+<li>为了减少其他肌群参与程度，俊宇杠铃推肩时，杠铃下落到下巴处，这样对三角肌前束刺激的比较深，如果再往下直至贴近锁骨处，锁骨到下巴这个过程三头肌参与发力的比重会大一些。</li>
+</ol>
+<hr>
+<h4 id="内测头训练"><a href="#内测头训练" class="headerlink" title="内测头训练"></a>内测头训练</h4><h5 id="动作一：屈臂下拉（内、外侧头）"><a href="#动作一：屈臂下拉（内、外侧头）" class="headerlink" title="动作一：屈臂下拉（内、外侧头）"></a>动作一：屈臂下拉（内、外侧头）</h5><p><img src="https://www.jianshen8.com/uploads/allimg/170605/4_170605174216_1.gif" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>两脚分开站立，身体呈挺胸收腹紧腰状</li>
+<li>屈臂两手紧握阻力杠两端把柄，两手间距小于肩宽，肘关节紧贴体侧。</li>
+<li>吸气，小臂用力向下压撑阻力杠，使臂伸直，稍停2～3秒钟；然后呼气，缓慢还原，感受肱三头肌一样在用力。</li>
+</ol>
+<h5 id="动作二：窄距杠铃卧推（内、外侧头）"><a href="#动作二：窄距杠铃卧推（内、外侧头）" class="headerlink" title="动作二：窄距杠铃卧推（内、外侧头）"></a>动作二：窄距杠铃卧推（内、外侧头）</h5><p><img src="https://pic2.zhimg.com/v2-95156895e869da96ccd9cb5755b24669_b.webp" alt="img"></p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li>肘关节向下，上臂贴着身体，不要向外展。使用史密斯机做更安全，而且可以重量更大。吸气下，呼气推起。</li>
+<li>手握住横杠中间，两手窄握，间距为一掌宽。固定肘，横杠置于胸前，然后两上臂靠近体侧内夹，用肱三头肌收缩力量将两臂完全伸直，两臂伸直持铃支撑在两肩上方。两臂慢慢弯屈落下至横杠触及胸部，然后向上推起至开始位置</li>
+</ol>
+]]></content>
+      <categories>
+        <category>💪健身笔记</category>
+      </categories>
+      <tags>
+        <tag>手臂训练</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>健身笔记-胸肌篇</title>
+    <url>/2020/05/09/2020-5-9-%E5%81%A5%E8%BA%AB/</url>
+    <content><![CDATA[<h3 id="💪健身笔记-胸肌篇"><a href="#💪健身笔记-胸肌篇" class="headerlink" title="💪健身笔记-胸肌篇"></a>💪健身笔记-胸肌篇</h3><hr>
+<span id="more"></span> 
+
+<p>[TOC]</p>
+<h4 id="上胸及胸外沿训练："><a href="#上胸及胸外沿训练：" class="headerlink" title="上胸及胸外沿训练："></a>上胸及胸外沿训练：</h4><h5 id="动作一：上斜卧推（杠铃）"><a href="#动作一：上斜卧推（杠铃）" class="headerlink" title="动作一：上斜卧推（杠铃）"></a><strong>动作一：上斜卧推（杠铃）</strong></h5><p>![photo](/assets/images/photo/wotui.webp)</p>
+<blockquote>
+<p>动作锻炼的侧重点：</p>
+<p><strong>胸肌上沿，胸外侧，三头肌及三角肌前束</strong></p>
+<p><strong>组数如果以增肌为目的</strong></p>
+</blockquote>
+<p><strong>动作要领：</strong></p>
+<ul>
+<li>躺在斜凳上，头部处于高位，使躯干与地面呈30度左右，双脚支撑地面，<strong>臀部和上背部贴在靠背上</strong>。双臂向上伸直将杠铃举到胸部上方位置，这是动作的起始位置。</li>
+<li>保持挺胸，弯曲肘部慢慢降低杠铃，同时吸气，<strong>直至杠铃杆几乎触碰到胸部。</strong></li>
+<li>然后用胸部发力，将杠铃垂直向上推起至杠铃处于肩关节的垂直线上，使胸大肌处于“顶峰收缩”位，稍停</li>
+</ul>
+<p>注意：<strong>快上慢下，下的用时大约是上用时的2倍，杠铃悬停位置在你的锁骨位置</strong></p>
+<p><strong>8-12RM * 5组</strong> </p>
+<h5 id="动作二：上斜卧推（哑铃）"><a href="#动作二：上斜卧推（哑铃）" class="headerlink" title="动作二：上斜卧推（哑铃）"></a><strong>动作二：上斜卧推（哑铃）</strong></h5><p>![img](/assets/images/photo/v2-75e37a9a20208ea7ca49829f7e52e912_b.webp)</p>
+<blockquote>
+<p>动作要领：</p>
+</blockquote>
+<ol>
+<li><p>上凳，双手各持一只哑铃，<strong>将其放在大腿上</strong>，掌心彼此相对。</p>
+</li>
+<li><p>然后，<strong>用大腿将哑铃举起来</strong>，如果重量很大，可以将哑铃放在腿根部，然后往后一趟，顺势抬腿将哑铃举起，将其放到胸前，掌心向前，与肩同宽。<strong>同时向后躺到靠背上，这个时候要收紧核心，挺胸沉肩，</strong>这样，你就准备好了</p>
+</li>
+<li><p>然后用胸部力量将哑铃推举起来，同时呼气，记住全程要保持对哑铃的掌控力度，全程核心收紧。</p>
+</li>
+<li><p>手臂自然伸直，到达顶点的时候稍适停留，然后开始缓慢下降，下降的时候吸气。同样，快上慢下。</p>
+</li>
+<li><p>以上是一次完整动作，重复动作至推荐次数。</p>
+</li>
+<li><p>完成一组后，<strong>将哑铃放回腿部，然后再放到地板上。这是安全放置哑铃的方式。</strong></p>
+</li>
+</ol>
+<p><strong>8-12RM * 5组</strong></p>
+<hr>
+<h4 id="中胸训练"><a href="#中胸训练" class="headerlink" title="中胸训练"></a><strong>中胸训练</strong></h4><h5 id="动作一：平板卧推（杠铃）"><a href="#动作一：平板卧推（杠铃）" class="headerlink" title="动作一：平板卧推（杠铃）"></a><strong>动作一：平板卧推（杠铃）</strong></h5><p><img src="https://pic1.zhimg.com/v2-10ae1d7977e8d2556c6cea9737516d54_b.webp" alt="img"></p>
+<blockquote>
+<p><strong>动作要领</strong></p>
+</blockquote>
+<ol>
+<li>躺好 </li>
+<li>挺胸，沉肩，夹背 忘了的同学回到上文看看专门讲沉肩那里 双脚支撑地面，<strong>臀部和上背部贴在靠背上，腰部可以起桥，不用起太高，这里侧重于肌肥大训练，不是力量举，所以没必要起高桥</strong>。双臂向上伸直将杠铃举到胸部上方位置，这是动作的起始位置。</li>
+<li>保持挺胸，沉肩，弯曲肘部慢慢降低杠铃，同时吸气，<strong>直至杠铃杆几乎触碰到胸部，就是放到你两个激凸点的位置</strong></li>
+<li>然后用胸部力量将哑铃推举起来，同时呼气，记住全程要保持均匀发力，切忌高低杠，全程核心收紧。</li>
+</ol>
+<h5 id="动作二：哑铃卧推："><a href="#动作二：哑铃卧推：" class="headerlink" title="动作二：哑铃卧推："></a><strong>动作二：哑铃卧推：</strong></h5><p><img src="https://pic4.zhimg.com/v2-53f6e29cd823aadb5d86f9c904fffc1b_b.webp" alt="img"></p>
+<blockquote>
+<p><strong>动作要领</strong>（和上斜哑铃卧推相似）</p>
+</blockquote>
+<ol>
+<li><p>上凳，双手各持一只哑铃，<strong>将其放在大腿上</strong>，掌心彼此相对。</p>
+</li>
+<li><p>然后，<strong>用大腿将哑铃举起来</strong>，如果重量很大，可以将哑铃放在腿根部，然后往后一趟，顺势抬腿将哑铃举起，将其放到胸前，掌心向前，与肩同宽。<strong>同时向后躺到靠背上，这个时候要收紧核心，挺胸沉肩。</strong></p>
+</li>
+<li><p>然后用胸部力量将哑铃推举起来，同时呼气，记住全程要保持对哑铃的掌控力度，全程核心收紧。</p>
+</li>
+<li><p>手臂自然伸直，到达顶点的时候稍适停留，然后开始缓慢下降，下降的时候吸气。同样，快上慢下。</p>
+</li>
+<li><p>以上是一次完整动作，重复动作至推荐次数。</p>
+</li>
+<li><p>完成一组后，<strong>将哑铃放回腿部，然后再放到地板上。这是安全放置哑铃的方式。</strong></p>
+</li>
+</ol>
+<p><strong>注意：全程你的手臂要与地面垂直，重量下落的点也在胸中部，具体操作方式如动图</strong></p>
+<hr>
+<h4 id="下胸训练"><a href="#下胸训练" class="headerlink" title="下胸训练"></a>下胸训练</h4><h5 id="动作一：双杠臂屈伸："><a href="#动作一：双杠臂屈伸：" class="headerlink" title="动作一：双杠臂屈伸："></a><strong>动作一：双杠臂屈伸</strong>：</h5><p><strong>一个练上肢的金牌复合动作，根据做的方法不同，锻炼的肌群侧重点也可以相应进行调整针对。</strong></p>
+<p><img src="https://pic2.zhimg.com/v2-98304657168f096618db22dadfa84a35_b.webp" alt="img"></p>
+<p>可以看到，红色区域是重点被刺激的区域，紫色区域次之。</p>
+<p>当身体前倾的时候，这个动作的重点就在胸肌上，具体一点说就是下胸。</p>
+<p>而在身体相对垂直于地面是，锻炼的侧重点在三头上。</p>
+<p>虽然这个动作好处多多，但是大多数做的都是错的，因此会伤到肩膀或者手腕。</p>
+<p>这里说一下需要注意的点：</p>
+<ol>
+<li>背要直，不可以弓背</li>
+<li>手臂不可以完全伸直，即便在撑起的状态也要保持手臂自然弯曲</li>
+<li>幅度不够：很多人只下了一点就认为动作完成了，这是达不到训练目的的</li>
+<li>手肘外扩：这个动作要有一定的夹肘</li>
+</ol>
+<hr>
+<h4 id="中胸沟训练"><a href="#中胸沟训练" class="headerlink" title="中胸沟训练"></a><strong>中胸沟训练</strong></h4><h5 id="动作一：绳索夹胸："><a href="#动作一：绳索夹胸：" class="headerlink" title="动作一：绳索夹胸："></a><strong>动作一：绳索夹胸</strong>：</h5><p>自由，关节活动角度，肌肉的伸展度，对胸肌整体训练都很有帮助，建议在做完大重量以后，来4-5组的绳索夹胸</p>
+<p><img src="https://pic4.zhimg.com/v2-ce9a8d90891347ea5ee94f29aea58b33_b.webp" alt="img"></p>
+<hr>
+<h4 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h4><ul>
+<li>​    RM就是<strong>Repetition Maximum，简单理解为：最大力竭反复数，就是你用这个重量最多每组可以连续做多少个，8RM就是你可以连续不间断做八个，最后一个很费力</strong></li>
+<li>​    至于组数及每组动作数是按照你锻炼的目的而定的，RM不同，侧重点也就不同，根据自身的状况来定义是最好的，并不是一定的数字，这个数字不是适合每个人的，但是对于新手，可以有这么一个概念：</li>
+</ul>
+<blockquote>
+<p><strong>2-6RM 为增加力量组</strong></p>
+<p><strong>7-12RM 为增肌组，</strong></p>
+<p><strong>12RM以上并缩短组间休息可以增加肌肉耐力</strong></p>
+</blockquote>
+<p>因人而异， 具体情况可以参考下表：</p>
+<p><img src="https://pic1.zhimg.com/80/v2-d00a7a80fd2faf084e75c95595048978_720w.jpg" alt="img"></p>
+<p>翻译+注解如下：</p>
+<p><strong>1 strength 肌力</strong>：大于或等於85% 1RM；目标反复次数低于或等于6次</p>
+<p><strong>2 power 爆发力</strong>：</p>
+<p>+ 单次努力项目：85%<del>90% ；次数1</del>2次</p>
+<p>+ 多次努力项目：75%<del>85% ；次数3</del>5次</p>
+<p><strong>3 Hypertrophy 肌肥大</strong>：67%<del>85% ；次数为6</del>12次</p>
+<p><strong>4 Muscular endurance肌肉耐力</strong>：小于或等于67%；次数为大于12次</p>
+]]></content>
+      <categories>
+        <category>💪健身笔记</category>
+      </categories>
+      <tags>
+        <tag>胸肌训练</tag>
+      </tags>
+  </entry>
+</search>
